@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-   float a=0, b=0, risultato=0;
+   float a=0, b=0, A=0;
     int opzione=0;
     cin >> a >> b>> opzione;
     switch (opzione) {
         case 0:
-            cout << "Risultato=" << (a*b)/2 << endl;
+            cout << "A=" << (a*b)/2 << endl;
             break;
         case 1:
-            cout << "Risultato=" << (a*a) << endl;
+            cout << "A=" << (a*a) << endl;
             break;
         case 2:
-            cout << "Risultato=" << (a*b) << endl;
+            cout << "A=" << (a*b) << endl;
             break;
         default:
             cout<< "opzione non valida" << endl;
